@@ -44,6 +44,15 @@
     "Brand color #2": "#133A79", 
     "Brand color #3": "#2376C8"
   },
+  "@openmrs/esm-login-app": {
+    "logo": {
+      "src": "/openmrs/spa/assets/healthcare-logo.svg",
+      "alt": "Healthcare Login Logo"
+    },
+    "footer": {
+      "additionalLogos": []
+    }
+  },
   "@openmrs/esm-primary-navigation-app": {
     "logo": {
       "src": "/openmrs/spa/assets/healthcare-logo.svg",
