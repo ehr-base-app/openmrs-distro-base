@@ -40,6 +40,15 @@
     "defaultFacilityUrl": ""
   },
   "@openmrs/esm-styleguide": {
-    "Brand color #1": "#005d5d"
+    "Brand color #1": "#064890",
+    "Brand color #2": "#133A79", 
+    "Brand color #3": "#2376C8"
+  },
+  "@openmrs/esm-primary-navigation-app": {
+    "logo": {
+      "src": "/openmrs/spa/assets/healthcare-logo.svg",
+      "alt": "Healthcare Logo",
+      "name": "Healthcare EMR"
+    }
   }
 }

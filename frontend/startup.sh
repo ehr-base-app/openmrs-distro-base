@@ -58,4 +58,7 @@ if [ -f "/usr/share/nginx/html/service-worker.js" ]; then
   envsubst '${IMPORTMAP_URL} ${SPA_PATH} ${API_URL}' < "/usr/share/nginx/html/service-worker.js" | sponge "/usr/share/nginx/html/service-worker.js"
 fi
 
+# Clean approach: Use OpenMRS configuration-based theming instead of CSS injection
+echo "✅ Using OpenMRS configuration-based theming via config-core_demo.json"
+
 exec nginx -g "daemon off;"
